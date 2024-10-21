@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на богослужение</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Дорогие друзья,</h1>
+            <p>Сердечно приглашаем вас на христианское богослужение, которое состоится</p>
+            <h2>20 Октября в 17:00</h2>
+            <p>и будет проходить по адресу:</p>
+            <p class="address">Fährstraße 11, 18439 Stralsund</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="card">
+            <h1>Дорогі друзі,</h1>
+            <p>Сердечно запрошуємо вас на християнське богослужіння, яке відбудеться</p>
+            <h2>20 жовтня о 17:00</h2>
+            <p>і проходитиме за адресою:</p>
+            <p class="address">Fährstraße 11, 18439 Stralsund</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="card">
+            <h1>Liebe Freunde,</h1>
+            <p>Wir laden Sie herzlich zu einem christlichen Gottesdienst ein, der stattfinden wird</p>
+            <h2>am 20. Oktober um 17:00 Uhr</h2>
+            <p>und unter folgender Adresse stattfinden wird:</p>
+            <p class="address">Fährstraße 11, 18439 Stralsund</p>
+        </div>
+
+        <!-- Добавлено фото -->
+        <div class="photo-container">
+            <img src="/mnt/data/20241020_165513.jpg" alt="Приглашение" class="photo">
+        </div>
+
+        <!-- Контейнер для QR-кода -->
+        <div id="qrcode-container">
+            <h3>Сканируйте QR-код для подробностей:</h3>
+            <div id="qrcode"></div>
+        </div>
+    </div>
+
+    <!-- Контейнер для анимации листьев -->
+    <div id="leaves-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
